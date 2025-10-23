@@ -1,0 +1,64 @@
+# ==========================
+# Blog-Code-Main .gitignore
+# ==========================
+
+# --- Environment files ---
+.env
+.env.local
+.env.*.local
+
+# --- Python cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Jupyter / Notebook checkpoints ---
+.ipynb_checkpoints/
+
+# --- Logs and temp files ---
+*.log
+*.tmp
+*.swp
+*.swo
+
+# --- OS-specific files ---
+.DS_Store
+Thumbs.db
+
+# --- Virtual environment directories ---
+venv/
+env/
+.venv/
+ENV/
+
+# --- Node.js (if used for frontend) ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Image files (ignore all image types) ---
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.tif
+*.webp
+*.svg
+*.ico
+*.heic
+*.heif
+
+# --- IDE / Editor configs ---
+.vscode/
+.idea/
+*.iml
+
+# --- Build / Output directories ---
+dist/
+build/
+__dist__/
+output/
+.cache/
